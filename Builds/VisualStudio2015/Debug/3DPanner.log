@@ -1,0 +1,274 @@
+﻿Build started 7/25/2015 10:19:19 PM.
+     1>Project "C:\Users\longg_000\Documents\GitHub\3DPanner\Builds\VisualStudio2015\3DPanner.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\JuceLibraryCode /I..\..\..\..\..\..\..\JUCE\modules /I"c:\SDKs\VST3 SDK" /I..\..\Source\StereoWidthCtrl /ZI /nologo /W4 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D DEBUG /D _DEBUG /D JUCER_VS2015_78A5022=1 /D JUCE_APP_VERSION=1.0.0 /D JUCE_APP_VERSION_HEX=0x10000 /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"Debug\\" /Fd"Debug\\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Source\StereoWidthCtrl\StereoWidthCtrl.cpp ..\..\Source\PluginProcessor.cpp ..\..\Source\PluginEditor.cpp ..\..\..\..\..\..\..\JUCE\modules\juce_audio_plugin_client\AAX\juce_AAX_Wrapper.cpp ..\..\..\..\..\..\..\JUCE\modules\juce_audio_basics\juce_audio_basics.cpp ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp ..\..\..\..\..\..\..\JUCE\modules\juce_audio_processors\juce_audio_processors.cpp ..\..\..\..\..\..\..\JUCE\modules\juce_core\juce_core.cpp ..\..\..\..\..\..\..\JUCE\modules\juce_cryptography\juce_cryptography.cpp ..\..\..\..\..\..\..\JUCE\modules\juce_data_structures\juce_data_structures.cpp ..\..\..\..\..\..\..\JUCE\modules\juce_events\juce_events.cpp ..\..\..\..\..\..\..\JUCE\modules\juce_graphics\juce_graphics.cpp ..\..\..\..\..\..\..\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp ..\..\..\..\..\..\..\JUCE\modules\juce_gui_extra\juce_gui_extra.cpp ..\..\..\..\..\..\..\JUCE\modules\juce_opengl\juce_opengl.cpp ..\..\..\..\..\..\..\JUCE\modules\juce_audio_plugin_client\utility\juce_PluginUtilities.cpp ..\..\..\..\..\..\..\JUCE\modules\juce_video\juce_video.cpp ..\..\..\..\..\..\..\JUCE\modules\juce_audio_plugin_client\VST\juce_VST_Wrapper.cpp ..\..\..\..\..\..\..\JUCE\modules\juce_audio_plugin_client\VST3\juce_VST3_Wrapper.cpp
+         StereoWidthCtrl.cpp
+         PluginProcessor.cpp
+         PluginEditor.cpp
+         juce_AAX_Wrapper.cpp
+         juce_audio_basics.cpp
+         juce_audio_devices.cpp
+         juce_audio_formats.cpp
+         juce_audio_processors.cpp
+         juce_core.cpp
+         juce_cryptography.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\um\shlobj.h(2228): warning C4091: 'typedef ': ignored on left of 'tagDTI_ADTIWUI' when no variable is declared (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+     1>c:\program files (x86)\windows kits\8.1\include\um\shlobj.h(2228): warning C4091: 'typedef ': ignored on left of 'tagDTI_ADTIWUI' when no variable is declared (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_processors\juce_audio_processors.cpp)
+     1>c:\program files (x86)\windows kits\8.1\include\um\shlobj.h(2228): warning C4091: 'typedef ': ignored on left of 'tagDTI_ADTIWUI' when no variable is declared (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+     1>c:\program files (x86)\windows kits\8.1\include\um\shlobj.h(2228): warning C4091: 'typedef ': ignored on left of 'tagDTI_ADTIWUI' when no variable is declared (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_core\juce_core.cpp)
+         juce_data_structures.cpp
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.h(45): error C2059: syntax error: 'user-defined literal' (compiling source file ..\..\Source\PluginEditor.cpp)
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.h(45): error C2059: syntax error: 'user-defined literal' (compiling source file ..\..\Source\PluginProcessor.cpp)
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(30): error C3688: invalid literal suffix 'DPannerAudioProcessor'; literal operator or literal operator template 'operator ""DPannerAudioProcessor' not found
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(30): error C2065: 'ownerFilter': undeclared identifier
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(30): error C2761: '{ctor}': member function redeclaration not allowed
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(31): error C2448: '_3DPannerAudioProcessorEditor::{ctor}': function-style initializer appears to be a function definition
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(31): error C2059: syntax error: ':'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(36): error C2065: 'WidthCtrlSld': undeclared identifier
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(36): error C3861: 'addAndMakeVisible': identifier not found
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(36): error C2059: syntax error: ';'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(37): error C3927: '->': trailing return type is not allowed after a non-function declarator
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(37): error C3613: missing return type after '->' ('int' assumed)
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(37): error C2146: syntax error: missing ';' before identifier 'setRange'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(38): error C3927: '->': trailing return type is not allowed after a non-function declarator
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(38): error C3613: missing return type after '->' ('int' assumed)
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(38): error C2086: 'int WidthCtrlSld': redefinition
+         c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(37): note: see declaration of 'WidthCtrlSld'
+     1>c:\users\longg_000\documents\github\3dpanner\source\pluginprocessor.cpp(158): warning C4458: declaration of 'sampleRate' hides class member
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(38): error C2146: syntax error: missing ';' before identifier 'setSliderStyle'
+         c:\juce\modules\juce_audio_processors\processors\juce_audioprocessor.h(728): note: see declaration of 'juce::AudioProcessor::sampleRate' (compiling source file ..\..\Source\PluginProcessor.cpp)
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(39): error C3927: '->': trailing return type is not allowed after a non-function declarator
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(39): error C3613: missing return type after '->' ('int' assumed)
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\longg_000\documents\github\3dpanner\source\pluginprocessor.cpp(192): error C2061: syntax error: identifier '_3dpannerAudioProcessorEditor'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(39): error C2086: 'int WidthCtrlSld': redefinition
+         c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(37): note: see declaration of 'WidthCtrlSld'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(39): error C2146: syntax error: missing ';' before identifier 'setTextBoxStyle'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(40): error C3927: '->': trailing return type is not allowed after a non-function declarator
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(40): error C3613: missing return type after '->' ('int' assumed)
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\longg_000\documents\github\3dpanner\source\pluginprocessor.cpp(241): error C2601: 'createPluginFilter': local function definitions are illegal
+         c:\users\longg_000\documents\github\3dpanner\source\pluginprocessor.cpp(213): note: this line contains a '{' which has not yet been matched
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(40): error C2086: 'int WidthCtrlSld': redefinition
+     1>c:\users\longg_000\documents\github\3dpanner\source\pluginprocessor.cpp(213): fatal error C1075: the left brace '{' was unmatched at the end of the file
+         c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(37): note: see declaration of 'WidthCtrlSld'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(40): error C2146: syntax error: missing ';' before identifier 'addListener'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(42): error C2065: 'label': undeclared identifier
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(43): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(44): error C3927: '->': trailing return type is not allowed after a non-function declarator
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(44): error C3613: missing return type after '->' ('int' assumed)
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(44): error C2146: syntax error: missing ';' before identifier 'setFont'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(45): error C3927: '->': trailing return type is not allowed after a non-function declarator
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(45): error C3613: missing return type after '->' ('int' assumed)
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(45): error C2086: 'int label': redefinition
+         c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(44): note: see declaration of 'label'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(45): error C2146: syntax error: missing ';' before identifier 'setJustificationType'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(46): error C3927: '->': trailing return type is not allowed after a non-function declarator
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(46): error C3613: missing return type after '->' ('int' assumed)
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(46): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(46): error C2086: 'int label': redefinition
+         c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(44): note: see declaration of 'label'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(46): error C2146: syntax error: missing ';' before identifier 'setEditable'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(47): error C3927: '->': trailing return type is not allowed after a non-function declarator
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(47): error C3613: missing return type after '->' ('int' assumed)
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(47): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(47): error C2086: 'int label': redefinition
+         c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(44): note: see declaration of 'label'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(47): error C2146: syntax error: missing ';' before identifier 'setColour'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(48): error C3927: '->': trailing return type is not allowed after a non-function declarator
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(48): error C3613: missing return type after '->' ('int' assumed)
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(48): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(48): error C2086: 'int label': redefinition
+         c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(44): note: see declaration of 'label'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(48): error C2146: syntax error: missing ';' before identifier 'setColour'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(49): error C3927: '->': trailing return type is not allowed after a non-function declarator
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(49): error C3613: missing return type after '->' ('int' assumed)
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(49): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(49): error C2086: 'int label': redefinition
+         c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(44): note: see declaration of 'label'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(49): error C2146: syntax error: missing ';' before identifier 'setColour'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(51): error C2065: 'BypassBtn': undeclared identifier
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(51): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(51): error C2374: 'addAndMakeVisible': redefinition; multiple initialization
+         c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(42): note: see declaration of 'addAndMakeVisible'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(52): error C3927: '->': trailing return type is not allowed after a non-function declarator
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(52): error C3613: missing return type after '->' ('int' assumed)
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(52): error C2146: syntax error: missing ';' before identifier 'setButtonText'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(53): error C3927: '->': trailing return type is not allowed after a non-function declarator
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(53): error C3613: missing return type after '->' ('int' assumed)
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(53): error C2086: 'int BypassBtn': redefinition
+         c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(52): note: see declaration of 'BypassBtn'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(53): error C2146: syntax error: missing ';' before identifier 'addListener'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(59): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(59): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+         c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(59): note: The initializer contains too many elements
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(63): error C3613: missing return type after '->' ('int' assumed)
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(63): error C3646: 'RequestUIUpdate': unknown override specifier
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(63): error C3551: if a trailing return type is used then the leading return type shall be the single type-specifier 'auto' (not 'int')
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(63): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(63): error C2059: syntax error: '('
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(64): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(65): error C3927: '->': trailing return type is not allowed after a non-function declarator
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(65): error C3613: missing return type after '->' ('int' assumed)
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(65): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(65): error C2146: syntax error: missing ';' before identifier 'setClickingTogglesState'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(67): error C2059: syntax error: '}'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(67): error C2143: syntax error: missing ';' before '}'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(70): error C2143: syntax error: missing ';' before '{'
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(70): error C2447: '{': missing function header (old-style formal list?)
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(84): error C2751: '_3DPannerAudioProcessorEditor::paint': the name of a function parameter cannot be qualified
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(85): error C2601: 'paint': local function definitions are illegal
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(95): error C2751: '_3DPannerAudioProcessorEditor::resized': the name of a function parameter cannot be qualified
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(96): error C2601: 'resized': local function definitions are illegal
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(107): error C2751: '_3DPannerAudioProcessorEditor::sliderValueChanged': the name of a function parameter cannot be qualified
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(108): error C2601: 'sliderValueChanged': local function definitions are illegal
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(122): error C2751: '_3DPannerAudioProcessorEditor::buttonClicked': the name of a function parameter cannot be qualified
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(123): error C2601: 'buttonClicked': local function definitions are illegal
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(140): error C2653: 'SteroWidthCtrlAudioProcessorEditor': is not a class or namespace name
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(141): error C2601: 'timerCallback': local function definitions are illegal
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(152): error C2653: 'StereoWidthCtrlAudioProcessorEditor': is not a class or namespace name
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(153): error C2601: 'sliderValueChanged': local function definitions are illegal
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(170): error C2653: 'StereoWidthCtrlAudioProcessorEditor': is not a class or namespace name
+     1>c:\users\longg_000\documents\github\3dpanner\source\plugineditor.cpp(171): error C2601: 'buttonClicked': local function definitions are illegal
+         juce_events.cpp
+         juce_graphics.cpp
+         juce_gui_basics.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(1544): warning C4091: 'typedef ': ignored on left of '' when no variable is declared (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_core\juce_core.cpp)
+     1>c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(3190): warning C4091: 'typedef ': ignored on left of '' when no variable is declared (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_core\juce_core.cpp)
+     1>c:\juce\modules\juce_audio_devices\native\juce_win32_wasapi.cpp(550): warning C4458: declaration of 'client' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+         c:\juce\modules\juce_audio_devices\native\juce_win32_wasapi.cpp(477): note: see declaration of 'juce::WasapiClasses::WASAPIDeviceBase::client' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+     1>c:\juce\modules\juce_audio_devices\native\juce_win32_wasapi.cpp(566): warning C4458: declaration of 'sampleRate' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+         c:\juce\modules\juce_audio_devices\native\juce_win32_wasapi.cpp(478): note: see declaration of 'juce::WasapiClasses::WASAPIDeviceBase::sampleRate' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+     1>c:\juce\modules\juce_audio_devices\native\juce_win32_wasapi.cpp(567): warning C4458: declaration of 'mixFormatChannelMask' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+         c:\juce\modules\juce_audio_devices\native\juce_win32_wasapi.cpp(481): note: see declaration of 'juce::WasapiClasses::WASAPIDeviceBase::mixFormatChannelMask' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+     1>c:\juce\modules\juce_audio_devices\native\juce_win32_wasapi.cpp(608): warning C4458: declaration of 'sampleRate' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+         c:\juce\modules\juce_audio_devices\native\juce_win32_wasapi.cpp(478): note: see declaration of 'juce::WasapiClasses::WASAPIDeviceBase::sampleRate' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+     1>c:\juce\modules\juce_audio_devices\native\juce_win32_wasapi.cpp(609): warning C4458: declaration of 'mixFormatChannelMask' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+         c:\juce\modules\juce_audio_devices\native\juce_win32_wasapi.cpp(481): note: see declaration of 'juce::WasapiClasses::WASAPIDeviceBase::mixFormatChannelMask' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+     1>c:\juce\modules\juce_audio_devices\native\juce_win32_wasapi.cpp(1526): warning C4458: declaration of 'outputDeviceNames' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+         c:\juce\modules\juce_audio_devices\native\juce_win32_wasapi.cpp(1472): note: see declaration of 'juce::WasapiClasses::WASAPIAudioIODeviceType::outputDeviceNames' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+     1>c:\juce\modules\juce_audio_devices\native\juce_win32_wasapi.cpp(1527): warning C4458: declaration of 'inputDeviceNames' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+         c:\juce\modules\juce_audio_devices\native\juce_win32_wasapi.cpp(1473): note: see declaration of 'juce::WasapiClasses::WASAPIAudioIODeviceType::inputDeviceNames' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+     1>c:\juce\modules\juce_audio_devices\native\juce_win32_wasapi.cpp(1528): warning C4458: declaration of 'outputDeviceIds' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+         c:\juce\modules\juce_audio_devices\native\juce_win32_wasapi.cpp(1472): note: see declaration of 'juce::WasapiClasses::WASAPIAudioIODeviceType::outputDeviceIds' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+     1>c:\juce\modules\juce_audio_devices\native\juce_win32_wasapi.cpp(1529): warning C4458: declaration of 'inputDeviceIds' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+         c:\juce\modules\juce_audio_devices\native\juce_win32_wasapi.cpp(1473): note: see declaration of 'juce::WasapiClasses::WASAPIAudioIODeviceType::inputDeviceIds' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+     1>c:\juce\modules\juce_audio_devices\native\juce_win32_directsound.cpp(643): warning C4456: declaration of 'hr' hides previous local declaration (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+         c:\juce\modules\juce_audio_devices\native\juce_win32_directsound.cpp(626): note: see declaration of 'hr' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+     1>c:\juce\modules\juce_audio_devices\native\juce_win32_directsound.cpp(756): warning C4458: declaration of 'sampleRate' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+         c:\juce\modules\juce_audio_devices\native\juce_win32_directsound.cpp(877): note: see declaration of 'juce::DSoundAudioIODevice::sampleRate' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+     1>c:\juce\modules\juce_audio_devices\native\juce_win32_directsound.cpp(756): warning C4458: declaration of 'bufferSizeSamples' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+         c:\juce\modules\juce_audio_devices\native\juce_win32_directsound.cpp(876): note: see declaration of 'juce::DSoundAudioIODevice::bufferSizeSamples' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+     1>c:\juce\modules\juce_audio_devices\native\juce_win32_midi.cpp(146): warning C4458: declaration of 'deviceHandle' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+         c:\juce\modules\juce_audio_devices\native\juce_win32_midi.cpp(130): note: see declaration of 'juce::MidiInCollector::deviceHandle' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+     1>c:\juce\modules\juce_audio_devices\native\juce_win32_midi.cpp(155): warning C4458: declaration of 'deviceHandle' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+         c:\juce\modules\juce_audio_devices\native\juce_win32_midi.cpp(130): note: see declaration of 'juce::MidiInCollector::deviceHandle' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+     1>c:\juce\modules\juce_audio_devices\native\juce_win32_midi.cpp(167): warning C4458: declaration of 'deviceHandle' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+         c:\juce\modules\juce_audio_devices\native\juce_win32_midi.cpp(130): note: see declaration of 'juce::MidiInCollector::deviceHandle' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+     1>c:\juce\modules\juce_audio_devices\native\juce_win32_midi.cpp(173): warning C4458: declaration of 'deviceHandle' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+         c:\juce\modules\juce_audio_devices\native\juce_win32_midi.cpp(130): note: see declaration of 'juce::MidiInCollector::deviceHandle' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp)
+     1>c:\program files (x86)\windows kits\8.1\include\um\shlobj.h(2228): warning C4091: 'typedef ': ignored on left of 'tagDTI_ADTIWUI' when no variable is declared (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_events\juce_events.cpp)
+     1>c:\program files (x86)\windows kits\8.1\include\um\shlobj.h(2228): warning C4091: 'typedef ': ignored on left of 'tagDTI_ADTIWUI' when no variable is declared (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_graphics\juce_graphics.cpp)
+     1>c:\program files (x86)\windows kits\8.1\include\um\shlobj.h(2228): warning C4091: 'typedef ': ignored on left of 'tagDTI_ADTIWUI' when no variable is declared (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp)
+     1>c:\juce\modules\juce_audio_formats\codecs\oggvorbis\framing.c(600): warning C4456: declaration of 'page' hides previous local declaration (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+         c:\juce\modules\juce_audio_formats\codecs\oggvorbis\framing.c(547): note: see declaration of 'page' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+     1>c:\juce\modules\juce_audio_formats\codecs\oggvorbis\framing.c(601): warning C4456: declaration of 'bytes' hides previous local declaration (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+         c:\juce\modules\juce_audio_formats\codecs\oggvorbis\framing.c(549): note: see declaration of 'bytes' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+     1>c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\floor1.c(492): warning C4457: declaration of 'a' hides function parameter (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+         c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\floor1.c(452): note: see declaration of 'a' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+     1>c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\floor1.c(512): warning C4459: declaration of 'mask' hides global declaration (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+         c:\juce\modules\juce_audio_formats\codecs\oggvorbis\bitwise.c(27): note: see declaration of 'juce::OggVorbisNamespace::mask' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+     1>c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\floor1.c(709): warning C4456: declaration of 'y0' hides previous local declaration (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+         c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\floor1.c(608): note: see declaration of 'y0' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+     1>c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\floor1.c(710): warning C4456: declaration of 'y1' hides previous local declaration (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+         c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\floor1.c(609): note: see declaration of 'y1' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+     1>c:\juce\modules\juce_core\time\juce_time.cpp(74): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_core\juce_core.cpp)
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\time.h(505): note: see declaration of 'localtime' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_core\juce_core.cpp)
+     1>c:\juce\modules\juce_core\time\juce_time.cpp(203): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_core\juce_core.cpp)
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\sys\timeb.h(76): note: see declaration of '_ftime64' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_core\juce_core.cpp)
+     1>c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\mdct.c(79): warning C4459: declaration of 'mask' hides global declaration (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+         c:\juce\modules\juce_audio_formats\codecs\oggvorbis\bitwise.c(27): note: see declaration of 'juce::OggVorbisNamespace::mask' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+     1>c:\juce\modules\juce_core\time\juce_time.cpp(376): warning C4996: '__tzname': This function or variable may be unsafe. Consider using _get_tzname instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_core\juce_core.cpp)
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\time.h(79): note: see declaration of '__tzname' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_core\juce_core.cpp)
+     1>c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\mdct.c(79): warning C4456: declaration of 'i' hides previous local declaration (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+         c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\mdct.c(56): note: see declaration of 'i' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+     1>c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\mdct.c(440): warning C4456: declaration of 'iX' hides previous local declaration (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+         c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\mdct.c(404): note: see declaration of 'iX' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+     1>c:\juce\modules\juce_audio_processors\processors\juce_audioprocessorgraph.cpp(863): warning C4458: declaration of 'sampleRate' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_processors\juce_audio_processors.cpp)
+         c:\juce\modules\juce_audio_processors\processors\juce_audioprocessor.h(728): note: see declaration of 'juce::AudioProcessor::sampleRate' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_processors\juce_audio_processors.cpp)
+     1>c:\juce\modules\juce_audio_processors\processors\juce_audioprocessorgraph.cpp(863): warning C4458: declaration of 'blockSize' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_processors\juce_audio_processors.cpp)
+         c:\juce\modules\juce_audio_processors\processors\juce_audioprocessor.h(729): note: see declaration of 'juce::AudioProcessor::blockSize' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_processors\juce_audio_processors.cpp)
+     1>c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\psy.c(239): warning C4456: declaration of 'bin' hides previous local declaration (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+         c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\psy.c(160): note: see declaration of 'bin' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+     1>c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\sharedbook.c(400): warning C4459: declaration of 'mask' hides global declaration (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+         c:\juce\modules\juce_audio_formats\codecs\oggvorbis\bitwise.c(27): note: see declaration of 'juce::OggVorbisNamespace::mask' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+         juce_gui_extra.cpp
+     1>c:\juce\modules\juce_core\native\juce_win32_files.cpp(295): warning C4458: declaration of 'buffer' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_core\juce_core.cpp)
+         c:\juce\modules\juce_core\files\juce_fileoutputstream.h(104): note: see declaration of 'juce::FileOutputStream::buffer' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_core\juce_core.cpp)
+     1>c:\juce\modules\juce_core\native\juce_win32_network.cpp(55): warning C4458: declaration of 'headers' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_core\juce_core.cpp)
+         c:\juce\modules\juce_core\native\juce_win32_network.cpp(195): note: see declaration of 'juce::WebInputStream::headers' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_core\juce_core.cpp)
+         juce_opengl.cpp
+     1>c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\vorbisfile.c(1104): warning C4457: declaration of 'i' hides function parameter (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+         c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\vorbisfile.c(1098): note: see declaration of 'i' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+     1>c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\vorbisfile.c(1172): warning C4457: declaration of 'i' hides function parameter (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+         c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\vorbisfile.c(1167): note: see declaration of 'i' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+     1>c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\vorbisfile.c(1191): warning C4457: declaration of 'i' hides function parameter (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+         c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\vorbisfile.c(1186): note: see declaration of 'i' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+     1>c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\vorbisfile.c(1210): warning C4457: declaration of 'i' hides function parameter (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+         c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\vorbisfile.c(1205): note: see declaration of 'i' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+     1>c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\vorbisfile.c(1505): warning C4456: declaration of 'og' hides previous local declaration (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+         c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\vorbisfile.c(1432): note: see declaration of 'og' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+     1>c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\vorbisfile.c(1601): warning C4456: declaration of 'ret' hides previous local declaration (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+         c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\vorbisfile.c(1590): note: see declaration of 'ret' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+     1>c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\vorbisfile.c(1979): warning C4456: declaration of 'val' hides previous local declaration (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+         c:\juce\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\vorbisfile.c(1915): note: see declaration of 'val' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp)
+     1>c:\program files (x86)\windows kits\8.1\include\um\shlobj.h(2228): warning C4091: 'typedef ': ignored on left of 'tagDTI_ADTIWUI' when no variable is declared (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_gui_extra\juce_gui_extra.cpp)
+         juce_PluginUtilities.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\um\shlobj.h(2228): warning C4091: 'typedef ': ignored on left of 'tagDTI_ADTIWUI' when no variable is declared (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_opengl\juce_opengl.cpp)
+     1>c:\juce\modules\juce_gui_basics\drawables\juce_drawablepath.cpp(91): warning C4458: declaration of 'path' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp)
+         c:\juce\modules\juce_gui_basics\drawables\juce_drawableshape.h(168): note: see declaration of 'juce::DrawableShape::path' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp)
+         juce_video.cpp
+     1>c:\juce\modules\juce_graphics\native\juce_win32_directwritetypelayout.cpp(78): warning C4459: declaration of 'newLine' hides global declaration (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_graphics\juce_graphics.cpp)
+         c:\juce\modules\juce_core\text\juce_newline.h(71): note: see declaration of 'juce::newLine' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_graphics\juce_graphics.cpp)
+         juce_VST_Wrapper.cpp
+     1>c:\juce\modules\juce_graphics\native\juce_win32_fonts.cpp(545): warning C4458: declaration of 'dc' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_graphics\juce_graphics.cpp)
+         c:\juce\modules\juce_graphics\native\juce_win32_fonts.cpp(473): note: see declaration of 'juce::WindowsTypeface::dc' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_graphics\juce_graphics.cpp)
+     1>c:\juce\modules\juce_graphics\native\juce_win32_fonts.cpp(590): warning C4458: declaration of 'dc' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_graphics\juce_graphics.cpp)
+         c:\juce\modules\juce_graphics\native\juce_win32_fonts.cpp(473): note: see declaration of 'juce::WindowsTypeface::dc' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_graphics\juce_graphics.cpp)
+         juce_VST3_Wrapper.cpp
+     1>c:\sdks\vst3 sdk\public.sdk\source\vst2.x\audioeffect.h(68): warning C4458: declaration of 'sampleRate' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_plugin_client\VST\juce_VST_Wrapper.cpp)
+         c:\sdks\vst3 sdk\public.sdk\source\vst2.x\audioeffect.h(179): note: see declaration of 'AudioEffect::sampleRate' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_plugin_client\VST\juce_VST_Wrapper.cpp)
+     1>c:\sdks\vst3 sdk\public.sdk\source\vst2.x\audioeffect.h(69): warning C4458: declaration of 'blockSize' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_plugin_client\VST\juce_VST_Wrapper.cpp)
+         c:\sdks\vst3 sdk\public.sdk\source\vst2.x\audioeffect.h(180): note: see declaration of 'AudioEffect::blockSize' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_plugin_client\VST\juce_VST_Wrapper.cpp)
+     1>c:\sdks\vst3 sdk\public.sdk\source\vst2.x\audioeffectx.cpp(779): warning C4458: declaration of 'sampleRate' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_plugin_client\VST\juce_VST_Wrapper.cpp)
+         c:\sdks\vst3 sdk\public.sdk\source\vst2.x\audioeffect.h(179): note: see declaration of 'AudioEffect::sampleRate' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_plugin_client\VST\juce_VST_Wrapper.cpp)
+     1>c:\program files (x86)\windows kits\8.1\include\um\shlobj.h(2228): warning C4091: 'typedef ': ignored on left of 'tagDTI_ADTIWUI' when no variable is declared (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_video\juce_video.cpp)
+     1>c:\sdks\vst3 sdk\public.sdk\source\vst2.x\audioeffect.cpp(161): warning C4458: declaration of 'editor' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_plugin_client\VST\juce_VST_Wrapper.cpp)
+         c:\sdks\vst3 sdk\public.sdk\source\vst2.x\audioeffect.h(178): note: see declaration of 'AudioEffect::editor' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_plugin_client\VST\juce_VST_Wrapper.cpp)
+     1>c:\sdks\vst3 sdk\public.sdk\source\vst2.x\audioeffect.cpp(413): warning C4458: declaration of 'sampleRate' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_plugin_client\VST\juce_VST_Wrapper.cpp)
+         c:\sdks\vst3 sdk\public.sdk\source\vst2.x\audioeffect.h(179): note: see declaration of 'AudioEffect::sampleRate' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_plugin_client\VST\juce_VST_Wrapper.cpp)
+     1>c:\juce\modules\juce_gui_extra\native\juce_win32_activexcomponent.cpp(228): warning C4458: declaration of 'bounds' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_gui_extra\juce_gui_extra.cpp)
+         c:\juce\modules\juce_gui_basics\components\juce_component.h(2230): note: see declaration of 'juce::Component::bounds' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_gui_extra\juce_gui_extra.cpp)
+     1>c:\juce\modules\juce_gui_extra\native\juce_win32_activexcomponent.cpp(335): warning C4458: declaration of 'bounds' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_gui_extra\juce_gui_extra.cpp)
+         c:\juce\modules\juce_gui_basics\components\juce_component.h(2230): note: see declaration of 'juce::Component::bounds' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_gui_extra\juce_gui_extra.cpp)
+     1>c:\juce\modules\juce_gui_extra\native\juce_win32_webbrowsercomponent.cpp(74): warning C4458: declaration of 'flags' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_gui_extra\juce_gui_extra.cpp)
+         c:\juce\modules\juce_gui_basics\components\juce_component.h(2279): note: see declaration of 'juce::Component::flags' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_gui_extra\juce_gui_extra.cpp)
+     1>c:\juce\modules\juce_opengl\native\juce_opengl_win32.h(210): warning C4458: declaration of 'pixelFormat' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_opengl\juce_opengl.cpp)
+         c:\juce\modules\juce_opengl\opengl\juce_openglcontext.h(283): note: see declaration of 'juce::OpenGLContext::pixelFormat' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_opengl\juce_opengl.cpp)
+     1>c:\juce\modules\juce_gui_basics\windows\juce_alertwindow.cpp(346): warning C4458: declaration of 'lookAndFeel' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp)
+         c:\juce\modules\juce_gui_basics\components\juce_component.h(2234): note: see declaration of 'juce::Component::lookAndFeel' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp)
+     1>c:\juce\modules\juce_gui_basics\native\juce_win32_windowing.cpp(3283): warning C4458: declaration of 'kioskModeComponent' hides class member (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp)
+         c:\juce\modules\juce_gui_basics\components\juce_desktop.h(427): note: see declaration of 'juce::Desktop::kioskModeComponent' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp)
+     1>c:\juce\modules\juce_audio_plugin_client\vst\juce_vst_wrapper.cpp(1377): warning C4458: declaration of 'editor' hides class member
+         c:\sdks\vst3 sdk\public.sdk\source\vst2.x\audioeffect.h(178): note: see declaration of 'AudioEffect::editor' (compiling source file ..\..\..\..\..\..\..\JUCE\modules\juce_audio_plugin_client\VST\juce_VST_Wrapper.cpp)
+     1>Done Building Project "C:\Users\longg_000\Documents\GitHub\3DPanner\Builds\VisualStudio2015\3DPanner.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:16.68
