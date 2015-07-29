@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2015
+Project("{D949E5B7-96CB-6306-BE87-FCEA72F21BBF}") = "3DPanner", "3DPanner.vcxproj", "{0A06BE9A-3EAB-4AB6-EF73-4C3E7CF50CCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A06BE9A-3EAB-4AB6-EF73-4C3E7CF50CCC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0A06BE9A-3EAB-4AB6-EF73-4C3E7CF50CCC}.Debug|Win32.Build.0 = Debug|Win32
+		{0A06BE9A-3EAB-4AB6-EF73-4C3E7CF50CCC}.Release|Win32.ActiveCfg = Release|Win32
+		{0A06BE9A-3EAB-4AB6-EF73-4C3E7CF50CCC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
