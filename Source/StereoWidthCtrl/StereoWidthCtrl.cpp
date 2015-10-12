@@ -23,3 +23,4 @@ float s = diffGain*(*RightSample-*LeftSample);
 *LeftSample=m-s;
 *RightSample=m+s;
 }
+blarg
